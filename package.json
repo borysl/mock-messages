@@ -4,7 +4,8 @@
   "description": "Faking messages for virtual messaging messages",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,8 @@
   "homepage": "https://github.com/borysl/mock-messages#readme",
   "private": true,
   "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
     "request": "^2.81.0"
   }
 }
