@@ -1,0 +1,33 @@
+{
+  "name": "mock-messages",
+  "version": "0.1.0",
+  "description": "Faking messages for virtual messaging messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borysl/mock-messages.git"
+  },
+  "keywords": [
+    "messages",
+    "mock",
+    "post",
+    "webservice"
+  ],
+  "author": "Borys Lebeda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/borysl/mock-messages/issues"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0"
+  },
+  "homepage": "https://github.com/borysl/mock-messages#readme",
+  "private": true,
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
